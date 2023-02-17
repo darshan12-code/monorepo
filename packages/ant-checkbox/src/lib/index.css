@@ -1,0 +1,34 @@
+/* 
+.custom-checkbox .ant-checkbox .ant-checkbox-inner{
+background-color: grey;
+border: 2px solid red;
+}
+ :hover.ant-checkbox .ant-checkbox-inner{
+    border-color: green!important;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner{
+background-color: pink!important;
+}
+:hover.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: green;
+    border-color: green;
+}
+.ant-checkbox .ant-checkbox-inner:after{
+    border-color: green!important;
+} */
+.ant-btn-primary:not(:disabled):hover {
+    background-color: #E20074;
+}
+
+.ant-input-group-addon .ant-btn-primary {
+    background-color: #E20074;
+}
+
+.ant-input-search .ant-input:focus,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):focus,
+.ant-input-search .ant-input:hover,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+:where(.css-dev-only-do-not-override-diro6f).ant-input-affix-wrapper-focused {
+    border-color: #E20074;
+}

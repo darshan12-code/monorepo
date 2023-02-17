@@ -1,0 +1,21 @@
+.ant-input{
+    font-weight: 500;
+}
+.ant-input:placeholder-shown {
+     text-transform: capitalize;
+}
+.ant-btn-primary:not(:disabled):hover {
+    background-color: #E20074;
+}
+
+.ant-input-group-addon .ant-btn-primary {
+    background-color: #E20074;
+}
+
+.ant-input-search .ant-input:focus,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):focus,
+.ant-input-search .ant-input:hover,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+:where(.css-dev-only-do-not-override-diro6f).ant-input-affix-wrapper-focused {
+    border-color: #E20074;
+}
