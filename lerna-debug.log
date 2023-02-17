@@ -1,0 +1,55 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '6.5.1',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.5.1
+2 verbose rootPath C:\Users\darsh\OneDrive\Documents\GitHub\monorepo
+3 info current version 1.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags false
+13 info Assuming all packages changed
+14 verbose updated ant-checkbox
+15 verbose updated checkbox
+16 verbose updated search-box
+17 verbose git-describe undefined => "ca8cb9c"
+18 silly git-describe parsed => {"refCount":"1","sha":"ca8cb9c","isDirty":false}
+19 info execute Skipping releases
+20 silly lifecycle No script for "preversion" in "@checkbox/root", continuing
+21 silly lifecycle No script for "preversion" in "ant-checkbox", continuing
+22 silly lifecycle No script for "preversion" in "checkbox", continuing
+23 silly lifecycle No script for "preversion" in "search-box", continuing
+24 silly lifecycle No script for "version" in "search-box", continuing
+25 silly lifecycle No script for "version" in "checkbox", continuing
+26 silly lifecycle No script for "version" in "ant-checkbox", continuing
+27 verbose version Updating root package-lock.json
+28 silly lifecycle No script for "version" in "@checkbox/root", continuing
+29 silly gitAdd [
+29 silly gitAdd   'packages/search-box/package.json',
+29 silly gitAdd   'packages/search-box/package-lock.json',
+29 silly gitAdd   'packages/checkbox/package.json',
+29 silly gitAdd   'packages/checkbox/package-lock.json',
+29 silly gitAdd   'packages/ant-checkbox/package.json',
+29 silly gitAdd   'packages/ant-checkbox/package-lock.json',
+29 silly gitAdd   'lerna.json',
+29 silly gitAdd   'package-lock.json'
+29 silly gitAdd ]
+30 error Error: Command failed with exit code 128: git add -- packages/search-box/package.json packages/search-box/package-lock.json packages/checkbox/package.json packages/checkbox/package-lock.json packages/ant-checkbox/package.json packages/ant-checkbox/package-lock.json lerna.json package-lock.json
+30 error fatal: Unable to create 'C:/Users/darsh/OneDrive/Documents/GitHub/monorepo/.git/index.lock': File exists.
+30 error
+30 error Another git process seems to be running in this repository, e.g.
+30 error an editor opened by 'git commit'. Please make sure all processes
+30 error are terminated then try again. If it still fails, a git process
+30 error may have crashed in this repository earlier:
+30 error remove the file manually to continue.
+30 error     at makeError (C:\Users\darsh\OneDrive\Documents\GitHub\monorepo\node_modules\execa\lib\error.js:59:11)
+30 error     at handlePromise (C:\Users\darsh\OneDrive\Documents\GitHub\monorepo\node_modules\execa\index.js:114:26)
+30 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+30 error     at async Promise.all (index 0)
