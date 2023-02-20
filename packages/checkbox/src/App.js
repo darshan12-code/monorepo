@@ -1,5 +1,5 @@
 import './App.css';
-import Checkbox from './Checkbox'
+import Checkbox from './lib/CheckboxCustom';
 function App() {
   const onChange=(e)=>{
     console.log(e);

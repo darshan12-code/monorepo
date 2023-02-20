@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 
 const Checkbox = (props) => {
     const defaultChecked = props?.checked ? props?.checked : false;
