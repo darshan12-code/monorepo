@@ -2,12 +2,8 @@
   "name": "@darshan12-code/search-box",
   "version": "1.0.3",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/darshan12-code/monorepo.git"
-  },
   "publishConfig": {
-    "@darshan12-code/:registry": "https://github.com/darshan12-code/monorepo"
+    "registry": "https://npm.pkg.github.com/darshan12-code"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
